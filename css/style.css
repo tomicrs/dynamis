@@ -165,12 +165,6 @@ body{
     padding: 0;
 }
 
-/* .centrar_imagen {
-    display:block;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-} */
 
 /* formulario */
 .form {
@@ -228,18 +222,7 @@ input {
     justify-content:flex-start;
     align-items: center;
 }
-/* .contacto-form #nombre{
-    width: 20rem;
-}
-.contacto-form #edad {
-    width: 6rem;
-}
-.contacto-form #correo{
-    width: 30rem;
-}
-.contacto-form #telefono{
-    width: 10rem;
-} */
+
 .contacto-form #mensaje{
     display: flex;
     flex-direction: column;
@@ -420,6 +403,3 @@ footer {
     }
 }
 
-@media screen and (min-width: 1024px){ /*Desktop*/
-    
-}
