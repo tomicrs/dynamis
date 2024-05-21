@@ -11,6 +11,42 @@ html {
   /* 1rem = 10px*/
 }
 
+header {
+  background-color: #023535;
+}
+header .logo {
+  border-radius: 1.7rem;
+  margin-left: 1.5rem;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+header nav ul {
+  /* align-items: center; */
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 2.5rem;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.7rem;
+}
+header nav ul li:last-child {
+  margin-right: 2.5rem;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5490196078);
+}
+
 body {
   background-color: aqua;
 }
