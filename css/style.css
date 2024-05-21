@@ -6,6 +6,32 @@
   box-sizing: border-box;
 }
 
+footer {
+  background-color: #023535;
+  text-align: center;
+}
+
+.pie p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5490196078);
+}
+
+.pie a {
+  display: inline-block;
+  margin-right: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.pie a:last-child {
+  margin-right: 0;
+}
+
+.pie a svg {
+  color: rgba(255, 255, 255, 0.5490196078);
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
 html {
   font-size: 62.5%;
   /* 1rem = 10px*/
@@ -49,11 +75,6 @@ header nav ul li a {
 
 body {
   background-color: aqua;
-}
-
-.logo {
-  border-radius: 1.7rem;
-  margin-left: 1.5rem;
 }
 
 .titulo {
@@ -225,32 +246,6 @@ input {
   height: 10rem;
   /* width: 40rem; */
   font-family: "Roboto", sans-serif;
-}
-
-footer {
-  background-color: #023535;
-  text-align: center;
-}
-
-.pie p {
-  text-align: center;
-  color: rgba(255, 255, 255, 0.5490196078);
-}
-
-.pie a {
-  display: inline-block;
-  margin-right: 1.5rem;
-  margin-bottom: 2rem;
-}
-
-.pie a:last-child {
-  margin-right: 0;
-}
-
-.pie a svg {
-  color: rgba(255, 255, 255, 0.5490196078);
-  width: 2.5rem;
-  height: 2.5rem;
 }
 
 /*---------- Aplicando GRIDS a la pagina Horarios ---------- */
