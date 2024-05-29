@@ -1,34 +1,26 @@
 
-footer {
+.pie {
     background-color: #023535 ;
     text-align: center;
-}
-.pie {
+
     p{ 
         text-align: center;
         color:#FFFFFF8C;
     }
-}
-.pie {
     a {
         display: inline-block;
         margin-right: 1.5rem;
-        margin-bottom: 2rem; 
-    }
-}
-.pie {
-    a{
+        margin-bottom: 2rem;
+        
         &:last-child { 
             margin-right: 0; 
         }
-    }
-}
-.pie {
-    a {
+
         svg { 
             color:#FFFFFF8C;
             width: 2.5rem; 
             height: 2.5rem;
         }
     }
-}   
+}
+

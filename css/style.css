@@ -6,26 +6,22 @@
   box-sizing: border-box;
 }
 
-footer {
+.pie {
   background-color: #023535;
   text-align: center;
 }
-
 .pie p {
   text-align: center;
   color: rgba(255, 255, 255, 0.5490196078);
 }
-
 .pie a {
   display: inline-block;
   margin-right: 1.5rem;
   margin-bottom: 2rem;
 }
-
 .pie a:last-child {
   margin-right: 0;
 }
-
 .pie a svg {
   color: rgba(255, 255, 255, 0.5490196078);
   width: 2.5rem;
